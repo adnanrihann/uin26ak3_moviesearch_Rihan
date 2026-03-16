@@ -71,7 +71,7 @@ function FrontPage() {
 
       <section>
         <h2>{overskrift}</h2>
-        <ul style={{ listStyle: 'none', padding: 0 }}>
+        <ul style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', listStyle: 'none', padding: 0 }}>
           {listeMedFilmer}
         </ul>
       </section>
