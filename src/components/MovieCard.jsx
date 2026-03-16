@@ -8,7 +8,7 @@ function MovieCard(props) {
   }
 
   return (
-    <li style={{ width: '200px', marginBottom: '10px' }}>
+    <li style={{ width: '200px', marginBottom: '20px'}}>
       <article>
         <img src={bildeUrl} alt={props.film.Title} style={{ width: '200px', height: '300px', objectFit: 'cover' }}/>
         <h3>{props.film.Title}</h3>
